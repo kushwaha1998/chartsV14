@@ -1,0 +1,27 @@
+/* @import '~@angular/material/theming'; */
+@import '~@angular/material/prebuilt-themes/indigo-pink.css';
+
+.chart-container {
+  width: 6000px; /* Set the width */
+  height: 100px; /* Set the height */
+  margin: auto; /* Center the container horizontally */
+  border: 4px solid #ccc; /* Optional border for visual separation */
+  border-radius: 8px; /* Optional border radius for rounded corners */
+  box-shadow: 0 0 8px rgba(23, 32, 56, 0.1); /* Optional box shadow for depth */
+}
+  
+canvas {
+    width: 100%;
+    height: 300px; /* Adjust height of each chart as needed */
+  }
+.style{
+display: flex;
+  }
+  .cdk-overlay-pane {
+    position: fixed !important;
+    top: 50% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%) !important;
+  }
+  
+  

@@ -1,0 +1,337 @@
+.chart-container {
+    background-color: #000; /* black background */
+    padding: 20px; /* optional: add padding to the container */
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1); /* Optional box shadow for depth */
+  }
+    
+  .charts-container {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr); /* Adjust columns as per your layout */
+      gap: 40px; /* Adjust gap between charts */
+      margin: 50px; /* Adjust overall margin */
+    }
+    .custombutton {
+        background-image: linear-gradient(to right, #2050a0, #249ce0);
+        border-radius: 20px;
+        border: none;
+        color: white;
+        cursor: pointer;
+    }
+  
+    .custombutton:hover {
+        color: white;
+        }
+  
+        .custombutton a {
+            color: white;
+        }
+  
+    .custombutton img {
+        padding-left: 10px;
+    }
+  
+    #footer {
+        /* background-image: url('../images/home/footer.png'); */
+        background-size: 100% 100%;
+        padding-top: 120px;
+    }
+    #footer .footer-menu ul li a
+    {
+        color: #757474;
+        font-weight: 400;
+        padding-left: 10px;
+    }
+  
+    /* #footer .footer-menu ul li:before {
+        content: url('../images/home/liimg_03.png');
+    } */
+  
+    #ppreload {
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: 9999999;
+        background-color: #ffffffb0;
+    }
+  
+    @media only screen and (max-width: 991px) {
+        #footer {
+            /* //background-image: url('../images/home/home_image_08.png'); */
+            padding-top: 40px;
+        }
+    }
+    .site-header .main-menu > ul > li > a {
+        color: white;
+    }
+  
+    #header {
+        box-shadow: 0 5px 75px 2px rgba(64,70,74,.2) !important;
+    }
+  
+    #footer {
+        display: none;
+    }
+  
+    .CustomBox {
+        -webkit-border-radius: 8px;
+        -moz-border-radius: 8px;
+        border-radius: 8px;
+        /* border: 1px solid var(--sala-border-line, #eeeeee); */
+        text-align: center;
+        height: 150px;
+        padding-top: 3px;
+        background-color: #06152b;
+        box-shadow: 0px 0px 5px 0px #000000;
+    }
+  
+        .CustomBox p {
+            font-size: 12px;
+            color: #fff;
+            text-transform: capitalize;
+            font-weight: bold;
+            font-family: Lucida Grande, Lucida Sans Unicode, Arial, Helvetica, sans-serif;
+        }
+  
+            .CustomBox p.box-title1 {
+                text-align: left;
+                padding-left: 5px;
+                font-size: 11px;
+                font-weight: bold;
+                line-height: 1.45;
+            }
+    /* testimonial Starts */
+    .block-testimonial.layout-05 {
+        padding: 0 30px 0 30px;
+    }
+  
+        .block-testimonial.layout-05 .item {
+            display: contents;
+            margin-top: 20px;
+            text-align: center;
+        }
+  
+            .block-testimonial.layout-05 .item .param {
+                padding-top: 12px;
+            }
+  
+                .block-testimonial.layout-05 .item .param h4 {
+                    font-weight: 600;
+                    font-size: 1.5rem;
+                    margin-bottom: .5rem;
+                    line-height: 1.2;
+                    font-family: Open Sans, Helvetica Neue, sans-serif;
+                    color: white;
+                }
+  
+                .block-testimonial.layout-05 .item .param p {
+                    padding-top: 10px;
+                    font-weight: 400;
+                    line-height: 1.45;
+                    font-family: Open Sans, Helvetica Neue, sans-serif;
+                }
+  
+                .block-testimonial.layout-05 .item .param div {
+                    border-radius: 20px;
+                    background-color: #122744;
+                    width: 100%;
+                    margin-top: 20px;
+                    font-size: 14px;
+                    font-weight: 300;
+                    padding: 6px 10px;
+                    color: white;
+                    line-height: 1;
+                }
+  
+    .block-testimonial.nav-layout-02 .swiper:hover .swiper-button-next {
+        right: 0px;
+    }
+  
+    .block-testimonial.nav-layout-02 .swiper:hover .swiper-button-prev {
+        left: 0px;
+    }
+  
+    .swiper-button-next, .swiper-button-prev {
+        top: 40%;
+    }
+  
+    .block-testimonial.nav-layout-02 .swiper-button-next, .block-testimonial.nav-layout-02 .swiper-button-prev {
+        width: 30px;
+        height: auto;
+    }
+  
+    .block-accordion.layout-04 .accordion-item .title:after {
+        display: none;
+    }
+    .block-accordion.layout-04 .accordion-item.is-active .title:after {
+        display: none;
+    }
+    /* testimonial Complete */
+  
+    .modal-title .SqureBoxModel {
+        width: 70px;
+        border-radius: 0 0 10px 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+  
+    .modal-body .CircleBoxModel {
+        padding: 9px;
+        border-radius: 60%;
+        width: 55px;
+        height: 55px;
+        display: flex;
+        justify-content: center;
+        margin-top: 5px;
+        font-size: 30px;
+    }
+  
+    .modal-body h2 {
+        font-size: 28px;
+    }
+  
+    .modal-title button {
+        position: absolute;
+        right: 19px;
+        top: 20px;
+    }
+  
+    .desc {
+        min-width: 400px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: column;
+        align-content: flex-start;
+    }
+  
+    .modal-body p {
+        font-size: 13px;
+    }
+  
+    .head1 {
+        line-height: 20px;
+        font-weight: 500;
+    }
+  
+    .head2 {
+        font-size: 14px;
+    }
+  
+    .ReadModel11, .ReadModel31, .ReadModel33 {
+        cursor: pointer;
+    }
+  
+    #exampleModal .accordion-item .content p {
+        font-size: 13px;
+        margin-bottom: 15px;
+    }
+  
+    .modal-body .graphDiv {
+        background: #f2f2f2;
+        border-radius: 10px;
+    }
+  
+    .clickBox1, clickBox3, clickBox4 {
+        cursor: pointer;
+    }
+  
+    .block-accordion.layout-04 .accordion-item .title {
+        color: #6d96e4;
+    }
+  
+    .accordion-item .content p {
+        font-size: 13px;
+        padding-bottom: 10px;
+    }
+  
+    .accordion-item {
+        margin-bottom: 0;
+    }
+  
+    .block-accordion.layout-04 .accordion-item .inner {
+        padding: 10px 0 0 0;
+    }
+  
+    #chartContainer0, #chartContainer1, #chartContainer2, #chartContainer3, #chartContainer4, #chartContainer5, #chartContainer6 {
+        position: relative;
+        height: 180px;
+        overflow: hidden;
+        cursor: pointer;
+    }
+  
+    .chartContainersub {
+        position: relative;
+        height: 100px;
+        overflow: hidden;
+        cursor: pointer;
+    }
+  
+    .customhrline {
+        margin: 10px 0;
+    }
+  
+    /* Alert Box CSS Starts */
+  
+    .AlertsBox {
+        -webkit-border-radius: 8px;
+        -moz-border-radius: 8px;
+        border-radius: 8px;
+        text-align: center;
+        padding-top: 3px;
+        background-color: #06152b;
+        box-shadow: 0px 0px 5px 0px #000000;
+    }
+  
+        .AlertsBox .AlertsBody {
+            display: block;
+            height: 500px;
+            overflow-y: scroll;
+        }
+  
+    .alertTitle {
+        color: white;
+        padding-bottom: 6px;
+        font-weight: 600;
+    }
+  
+    .AlertsBox table th, .AlertsBox table td {
+        padding: 5px 20px;
+    }
+  
+    .AlertsBox .light-theme-bg {
+        background-color: #06152b !important;
+        color: #fff !important;
+        font-family: Open Sans, Helvetica Neue, sans-serif;
+        font-size: 14px;
+        height: 80px;
+        text-transform: capitalize;
+    }
+  
+    .AlertsBox table tbody > tr {
+        transition: box-shadow .2s;
+        background: #06152b !important;
+        border-radius: 0;
+        color: #fff;
+        vertical-align: baseline;
+        text-align: left;
+        font-size: 13px;
+    }
+  
+    .AlertsBox table thead > tr > th {
+        padding: 8px 12px;
+        border: 0;
+        font-weight: 700;
+        background-color: #06152b !important;
+    }
+  
+    .AlertsBox table tbody > tr:nth-child(odd) {
+        background-color: #122744 !important;
+    }
+  
+    .AlertsBox table tbody > tr:nth-child(2n) {
+        background-color: #06152b !important;
+    }
