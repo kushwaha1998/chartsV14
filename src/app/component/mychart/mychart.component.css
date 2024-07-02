@@ -1,8 +1,4 @@
-.chart-container {
-    background-color: #000; /* black background */
-    padding: 20px; /* optional: add padding to the container */
-    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1); /* Optional box shadow for depth */
-  }
+
     
   .charts-container {
       display: grid;

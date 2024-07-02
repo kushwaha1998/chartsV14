@@ -52,8 +52,7 @@ export class MychartComponent implements OnInit, AfterViewInit {
       data: {
         labels: labels,
         datasets: [{
-         
-
+          label: label,
           data: data,
           borderColor: 'rgba(0, 255, 0)',
           backgroundColor: 'rgba(255, 255, 255, 0.2)',
